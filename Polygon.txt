@@ -1,0 +1,19 @@
+stage
+prompt user to enter the number of sides on the polygon
+collect the number of sides of polygon
+store the number of sides on the polygon as n
+
+prompt user to enter the length of one of the sides
+collect the length of one of the sides
+store the length of one of the sides as s
+
+calculate for the area of a polygon by:
+
+	(Math.pow((n * s), 2)) / (4 * (Math.tan(PI/n)))
+
+store the result as area
+display area
+
+(n * s ^ 2) / (4 * tan(PI/n))
+s = length
+n number

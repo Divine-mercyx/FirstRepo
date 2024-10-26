@@ -1,0 +1,18 @@
+stage
+prompt user to enter the amount of water in kilogram
+collect the amoun  of water in kilogram
+store the amount of water in kilogram as waterWeight
+
+prompt the user to enter the initial temperature ogf the water
+collect the initial temperature of the water
+store the initial temperature of the water as initialTemperature
+
+prompt the user to enter the final temperature of the water
+collect the final temperature of the water
+store the final temperature of the water as finalTemperature
+
+calculate for the energy by:
+	waterWeight * (finalTemperature - initialTemperature) * 4184
+
+store the result as energy
+display energy.

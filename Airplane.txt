@@ -1,0 +1,14 @@
+stage
+prompt the user to enter the plane's take off speed in m/s
+collect the the plane's take off speed in m/s
+store the plane's take off speed as speed
+
+prompt the user to enter the plane's acceleration
+collect the plane's acceleration
+store the plane's acceleration as acceleration
+
+calculate the minimum run way length by:
+	(speed raised to the power of 2) / (2 * acceleration)
+
+store the result as length
+display length

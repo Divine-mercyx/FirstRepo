@@ -1,0 +1,22 @@
+stage
+prompt the user to enter a weight in pounds
+collect the weight in pounds
+store the weight in pounds as weight
+
+prompt the user to enter a height in inches
+collect the height in inches
+store the height in inches as height
+
+convert weight to kilogram:
+      weight * 0.45359237
+store the result as weightKilo
+
+convert height to meters:
+      height * 0.0254
+store the result as heightMeters
+
+
+calculate for the BMI by:
+      weightKilo / (heightMeters * heightMeters);
+store the result as BMI
+display BMi

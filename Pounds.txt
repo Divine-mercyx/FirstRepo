@@ -1,0 +1,9 @@
+stage
+prompt the user to enter a number in pounds
+collect the number in pounds
+store the number in pounds as pounds
+
+convert it to kilogram by:
+	pounds * 0.454;
+store the result as kilogram
+display kilogram
