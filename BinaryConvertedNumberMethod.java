@@ -39,7 +39,7 @@ public class BinaryConvertedNumberMethod {
 
 		while (count <= number) {
 			number1 = number % 2;
-			binaryConvert += number1;
+			binaryConvert = number1 + binaryConvert;
 			number = number / 2;
 			
 		}
